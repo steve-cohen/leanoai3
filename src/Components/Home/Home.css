@@ -1,0 +1,286 @@
+.Home nav {
+	backdrop-filter: saturate(120%) blur(10px);
+	background-color: rgba(255, 255, 255, 0.8);
+	border-bottom: 1px solid rgb(226, 227, 229);
+	position: sticky;
+	top: 0;
+}
+
+.Home nav .Items {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	max-width: 980px;
+	width: 100%;
+}
+
+.Home nav div div {
+	display: inline-block;
+	line-height: 66px;
+	padding: 0 12px;
+}
+
+.Home nav div div:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.Home nav .Logo {
+	cursor: default !important;
+	font-size: 21px;
+	font-weight: 600;
+	letter-spacing: -0.2px;
+	line-height: 66px;
+	text-decoration: none !important;
+}
+
+.Home nav .SignUp .Button {
+	background: linear-gradient(149deg, #f6d365, #ff7952);
+	border-radius: 20px;
+	color: white;
+	line-height: 26px;
+	padding: 0 10px;
+}
+
+.Home .Section1 {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 80vh;
+	text-align: center;
+	width: 100%;
+}
+
+.Home .Section1 .Title {
+	font-size: 64px;
+	font-weight: 600;
+	letter-spacing: -0.6px;
+	line-height: 68px;
+	margin-bottom: 32px;
+	white-space: pre;
+}
+
+.Home .Section1 .Title .Gradient {
+	background-image: linear-gradient(149deg, #f6d365, #ff7952);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.Home .Section1 .SubTitle {
+	color: rgb(48, 49, 52);
+	font-size: 24px;
+	line-height: 32px;
+	white-space: pre;
+}
+
+.Home .Section1 .TryBeta {
+	color: rgb(0, 102, 204);
+	cursor: pointer;
+	font-size: 24px;
+	letter-spacing: 0;
+	padding: 20px;
+	margin: 0 auto;
+	width: fit-content;
+}
+
+.Home .Section1 .TryBeta span {
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.Home .Section1 .TryBeta span:hover {
+	text-decoration: underline;
+}
+
+.Home .Section1 .TryBeta svg {
+	fill: rgb(0, 102, 204);
+	filter: none;
+	display: inline-block;
+	height: 19px;
+	padding-left: 7px;
+	vertical-align: middle;
+	width: 19px;
+}
+
+.Home .Section2 img {
+	display: block;
+	margin: 0 auto 10vh auto;
+	max-width: calc(100% - 8vw);
+	width: 980px;
+}
+
+.Home .Section3 {
+	background: rgb(248, 249, 251);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10vw 5vw;
+	width: calc(100% - 10vw);
+}
+
+.Home .Section3 .Copy {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto 5vw auto;
+	max-width: 100%;
+	width: 980px;
+}
+
+.Home .Section3 .Copy .Headline {
+	font-size: 40px;
+	font-weight: 600;
+	padding-right: 5vw;
+	white-space: pre;
+}
+
+.Home .Section3 .Copy .Description {
+	color: rgb(49, 50, 52);
+	font-size: 17px;
+	letter-spacing: -0.3px;
+	line-height: 25px;
+	margin-top: 12px;
+	max-width: calc(100% - 10vw);
+	width: 400px;
+}
+
+.Home .Section3 .ClipImg {
+	/* border: 1px solid rgb(226, 227, 229); */
+	border: 30px solid white;
+	max-width: calc(100% - 10vw);
+	width: 980px;
+}
+
+.Home .Section3 .Copy .SEOImg {
+	margin: 5vw 0;
+	width: 400px;
+}
+
+.Home .Section4 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 10vw auto;
+	max-width: calc(100% - 10vw);
+	padding: 0 5vw;
+	width: 980px;
+}
+
+.Home .Section4 img {
+	max-width: calc(100% - 10vw);
+	width: 500px;
+}
+
+.Home .Section4 .Copy .Headline {
+	font-size: 40px;
+	font-weight: 600;
+	white-space: pre;
+}
+
+.Home .Section4 .Copy .Description {
+	color: rgb(49, 50, 52);
+	font-size: 17px;
+	letter-spacing: -0.3px;
+	line-height: 25px;
+	margin: 16px 0 5vw 0;
+	max-width: 85vw;
+	width: 400px;
+}
+
+.Home .Section5 {
+	background: rgb(248, 249, 251);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10vw 5vw;
+	width: calc(100% - 10vw);
+}
+
+.Home .Section5 .Copy {
+	margin: 0 auto 5vw auto;
+	max-width: 100%;
+	width: 980px;
+}
+
+.Home .Section5 .Copy .Headline {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.Home .Section5 .Copy .Description {
+	color: rgb(49, 50, 52);
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: 25px;
+	margin-top: 12px;
+	max-width: calc(100% - 10vw);
+	width: 600px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.Home .Section1 .Title {
+		font-size: 48px;
+		line-height: 52px;
+	}
+
+	.Home .Section1 .SubTitle {
+		font-size: 21px;
+		line-height: 29px;
+	}
+
+	.Home .Section1 .TryBeta {
+		font-size: 21px;
+		line-height: 29px;
+	}
+
+	.Home .Section1 .TryBeta svg {
+		height: 17px;
+		padding-left: 6px;
+		width: 17px;
+	}
+}
+
+@media only screen and (max-width: 736px) {
+	.Home .Section1 .Title {
+		font-size: 40px;
+		line-height: 44px;
+	}
+
+	.Home .Section1 .SubTitle {
+		font-size: 21px;
+		line-height: 29px;
+	}
+
+	.Home .Section1 .TryBeta {
+		font-size: 21px;
+		line-height: 29px;
+	}
+
+	.Home .Section1 .TryBeta svg {
+		height: 17px;
+		padding-left: 6px;
+		width: 17px;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.Home .Headline {
+		font-size: 30px !important;
+		line-height: 36px !important;
+	}
+
+	.Home .Section1 {
+		min-height: 66vh;
+	}
+
+	.Home .Section1 .Title {
+		font-size: 28px;
+		line-height: 34px;
+	}
+
+	.Home nav .Items .PricingNav,
+	.Home nav .Items .SupportNav {
+		display: none;
+	}
+}
